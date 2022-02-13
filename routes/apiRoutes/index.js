@@ -8,9 +8,9 @@ router.get('/notes', (req, res) => {
 
 router.post('/notes', (req, res) => {
     // set id based on what the next index of the array will be
-    req.body.id = notes.length.toString();
+    req.body.id = notes.notes.length.toString();
 
-    const note = createNewNote(req.body, notes);
+    const note = createNewNote(req.body, notes.notes);
 
     res.json(note);
 })

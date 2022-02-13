@@ -1,14 +1,19 @@
 {
-    "notes": [
-      {
-        "title": "new note",
-        "text": "this is a test",
-        "id": "0"
-      },
-      {
-        "title": "test 2",
-        "text": "this actually works ????",
-        "id": "1"
-      }
-    ]
-  }
+  "notesArray": [
+    {
+      "title": "new note",
+      "text": "this is a test",
+      "id": "0"
+    },
+    {
+      "title": "test 2",
+      "text": "this actually works ????",
+      "id": "1"
+    },
+    {
+      "title": "local host",
+      "text": "note",
+      "id": "2"
+    }
+  ]
+}
