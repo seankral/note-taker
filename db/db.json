@@ -1,19 +1,9 @@
 {
   "notesArray": [
     {
-      "title": "new note",
-      "text": "this is a test",
+      "title": "Local Host",
+      "text": "Created using local host",
       "id": "0"
-    },
-    {
-      "title": "test 2",
-      "text": "this actually works ????",
-      "id": "1"
-    },
-    {
-      "title": "local host",
-      "text": "note",
-      "id": "2"
     }
   ]
 }

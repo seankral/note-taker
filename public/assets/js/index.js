@@ -155,11 +155,11 @@ const renderNoteList = async (notes) => {
     return liEl;
   };
 
-  if (jsonNotes.notes.length === 0) {
+  if (jsonNotes.length === 0) {
     noteListItems.push(createLi('No saved Notes', false));
   }
 
-  jsonNotes.notes.forEach((note) => {
+  jsonNotes.forEach((note) => {
     const li = createLi(note.title);
     li.dataset.note = JSON.stringify(note);
 
